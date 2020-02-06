@@ -2,7 +2,7 @@
 // Created by Fatou DIALLO on 06/02/2020.
 //
 
-#include "AbstractEntity.h"
+#include "AbstractEntity.hh"
 
 using namespace std;
 /**Constructeur **/
