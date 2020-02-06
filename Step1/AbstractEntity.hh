@@ -2,8 +2,8 @@
 // Created by Othmane ALAOUA on 06/02/2020.
 //
 
-#ifndef STEP1_ABSTRACTENTITY_H
-#define STEP1_ABSTRACTENTITY_H
+#ifndef STEP1_ABSTRACTENTITY_HH
+#define STEP1_ABSTRACTENTITY_HH
 
 
 class AbstractEntity {
@@ -20,4 +20,4 @@ public:
 };
 
 
-#endif //STEP1_ABSTRACTENTITY_H
+#endif //STEP1_ABSTRACTENTITY_HH
