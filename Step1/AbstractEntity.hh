@@ -13,9 +13,9 @@ private:
     virtual void Update() = 0;
 
 public:
-    AbstractEntity();
+    virtual AbstractEntity();
 
-    ~AbstractEntity();
+    virtual ~AbstractEntity();
 
 };
 
