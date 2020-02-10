@@ -13,11 +13,10 @@ private:
     virtual void Update() = 0;
 
 public:
-    virtual AbstractEntity();
+    AbstractEntity();
 
     virtual ~AbstractEntity();
 
 };
-
 
 #endif //STEP1_ABSTRACTENTITY_HH

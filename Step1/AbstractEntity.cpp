@@ -6,7 +6,7 @@
 
 using namespace std;
 /**Constructeur **/
-AbstractEntity::AbstractEntity() {};
+AbstractEntity::AbstractEntity(){};
 AbstractEntity::~AbstractEntity(){};
 void AbstractEntity::Draw() {};
 
