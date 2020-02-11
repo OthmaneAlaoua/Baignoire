@@ -13,10 +13,18 @@ class Character : public AbstractEntity {
     virtual ~Character();
 
 public:
+    double GetX() cont ;
+    void SetX(double);
+
+    double GetY()const;
+    double SetY(double);
+
+    int GetLife() const ;
+    void SetLife(int);
 
 private:
-    double X  ;
-    double Y  ;
+    double const X  ;
+    double const Y  ;
     int Life const ;
 };
 
