@@ -1,5 +1,5 @@
 //
-// Created by Fatou DIALLO on 10/02/2020.
+// Created by Othmane on 10/02/2020.
 //
 
 #include "Character.hh"
@@ -15,14 +15,14 @@ void Character::SetX(double) {
     this->X = double;
 }
 
-double Character::GetY() const {
+double Character::GetY() {
     return this->Y;
 }
 double Character::SetY(double) {
     this->Y = double;
 }
 
-int Character::GetLife() const {
+int Character::GetLife() {
     return this->Life;
 }
 
