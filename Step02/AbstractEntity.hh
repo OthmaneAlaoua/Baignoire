@@ -8,13 +8,14 @@
 
 class AbstractEntity {
 private:
-    virtual void Draw() = 0;
+    virtual void Draw();
 
-    virtual void Update() = 0;
+    virtual void Update();
 
-public:
+protected:
     AbstractEntity();
 
+public:
     virtual ~AbstractEntity();
 
 };
